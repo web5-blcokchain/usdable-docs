@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress'
 import sidebar from './sidebar'
 
 export default defineConfig({
+  base: '/usdable-docs/',
+
   title: 'Usdable Docs',
   description: 'Usdable Docs',
   themeConfig: {
