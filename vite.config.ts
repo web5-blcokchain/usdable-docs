@@ -9,8 +9,6 @@ import { defineConfig } from 'vite'
 const r = (path: string) => fileURLToPath(new URL(path, import.meta.url))
 
 export default defineConfig({
-  base: '/usdable-docs/',
-
   plugins: [
     unocss(),
     autoImport({
