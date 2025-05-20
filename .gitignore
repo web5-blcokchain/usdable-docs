@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.history/
+.auto-import/
+.DS_Store
+.eslintcache
+yarn-error.log
+temp.js
+package-lock.json
